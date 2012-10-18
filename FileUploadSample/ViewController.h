@@ -10,4 +10,5 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)upload:(id)sender;
 @end

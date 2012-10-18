@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		336DFFCE0C3548C48B023F0E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05034597DB5E44B0950046C0 /* libPods.a */; };
 		54B4540E162FADC900E076E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B4540D162FADC900E076E1 /* UIKit.framework */; };
 		54B45410162FADC900E076E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B4540F162FADC900E076E1 /* Foundation.framework */; };
 		54B45412162FADC900E076E1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B45411162FADC900E076E1 /* CoreGraphics.framework */; };
@@ -18,13 +19,15 @@
 		54B45424162FADC900E076E1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54B45423162FADC900E076E1 /* Default-568h@2x.png */; };
 		54B45427162FADC900E076E1 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54B45425162FADC900E076E1 /* MainStoryboard.storyboard */; };
 		54B4542A162FADC900E076E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B45429162FADC900E076E1 /* ViewController.m */; };
+		54B45438162FB11600E076E1 /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54B45437162FB11600E076E1 /* test.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05034597DB5E44B0950046C0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		54B45409162FADC900E076E1 /* FileUploadSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FileUploadSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		54B4540D162FADC900E076E1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		54B4540F162FADC900E076E1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		54B45411162FADC900E076E1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		54B4540D162FADC900E076E1 /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		54B4540F162FADC900E076E1 /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		54B45411162FADC900E076E1 /* CoreGraphics.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		54B45415162FADC900E076E1 /* FileUploadSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FileUploadSample-Info.plist"; sourceTree = "<group>"; };
 		54B45417162FADC900E076E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		54B45419162FADC900E076E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -37,6 +40,8 @@
 		54B45426162FADC900E076E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		54B45428162FADC900E076E1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		54B45429162FADC900E076E1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		54B45437162FB11600E076E1 /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
+		DCD90D161C03438B9D30F892 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +52,7 @@
 				54B4540E162FADC900E076E1 /* UIKit.framework in Frameworks */,
 				54B45410162FADC900E076E1 /* Foundation.framework in Frameworks */,
 				54B45412162FADC900E076E1 /* CoreGraphics.framework in Frameworks */,
+				336DFFCE0C3548C48B023F0E /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +65,7 @@
 				54B45413162FADC900E076E1 /* FileUploadSample */,
 				54B4540C162FADC900E076E1 /* Frameworks */,
 				54B4540A162FADC900E076E1 /* Products */,
+				DCD90D161C03438B9D30F892 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,6 +83,7 @@
 				54B4540D162FADC900E076E1 /* UIKit.framework */,
 				54B4540F162FADC900E076E1 /* Foundation.framework */,
 				54B45411162FADC900E076E1 /* CoreGraphics.framework */,
+				05034597DB5E44B0950046C0 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -83,6 +91,7 @@
 		54B45413162FADC900E076E1 /* FileUploadSample */ = {
 			isa = PBXGroup;
 			children = (
+				54B45437162FB11600E076E1 /* test.jpg */,
 				54B4541C162FADC900E076E1 /* AppDelegate.h */,
 				54B4541D162FADC900E076E1 /* AppDelegate.m */,
 				54B45425162FADC900E076E1 /* MainStoryboard.storyboard */,
@@ -117,6 +126,7 @@
 				54B45405162FADC900E076E1 /* Sources */,
 				54B45406162FADC900E076E1 /* Frameworks */,
 				54B45407162FADC900E076E1 /* Resources */,
+				8476DEDC13AE46FB8D48455A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -163,10 +173,28 @@
 				54B45422162FADC900E076E1 /* Default@2x.png in Resources */,
 				54B45424162FADC900E076E1 /* Default-568h@2x.png in Resources */,
 				54B45427162FADC900E076E1 /* MainStoryboard.storyboard in Resources */,
+				54B45438162FB11600E076E1 /* test.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8476DEDC13AE46FB8D48455A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		54B45405162FADC900E076E1 /* Sources */ = {
@@ -253,6 +281,7 @@
 		};
 		54B4542E162FADC900E076E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCD90D161C03438B9D30F892 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FileUploadSample/FileUploadSample-Prefix.pch";
@@ -264,6 +293,7 @@
 		};
 		54B4542F162FADC900E076E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCD90D161C03438B9D30F892 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FileUploadSample/FileUploadSample-Prefix.pch";
@@ -292,6 +322,7 @@
 				54B4542F162FADC900E076E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
